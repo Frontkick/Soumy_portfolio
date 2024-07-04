@@ -2,6 +2,7 @@
 @media (max-width: 768px) {
     .piano_mobile {
         position: absolute;
-        margin-top: -10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
     }
 }
