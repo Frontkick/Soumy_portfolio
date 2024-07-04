@@ -47,3 +47,8 @@
     background-color: rgb(95, 95, 161) !important;
   }
   
+  @media (max-width: 768px) {
+    .piano {
+        width: 350px;
+    }
+}

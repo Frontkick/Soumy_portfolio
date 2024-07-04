@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-
+import './Hero.css'
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import Piano from "./Piano/Piano";
@@ -23,9 +23,11 @@ const Hero = () => {
             I am a 3rd year CSE Grad and also a Pianist <br className='sm:block hidden' />
           </p>
         </div>
-          <div className=" mt-96 mr-72">
+        <div className="mt-64 piano_mobile">
+        <div className="mt-96 mr-32">
             <Piano/>
           </div>
+        </div>
       </div>
     </section>
   );

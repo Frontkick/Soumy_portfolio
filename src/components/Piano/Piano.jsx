@@ -189,13 +189,13 @@ const Piano = () => {
       ))}
       <div>
         {/* Start button */}
-      <button className=' bg-slate-600 w-36 ml-20 rounded-sm border-r-2 border-black' 
-        onClick={startAutoPlay} disabled={isPlaying}>
-        {isPlaying ? 'Playing...' : 'Play Happy Birthday '}
-      </button>
       </div>
       
     </div>
+    <button className=' bg-slate-600 w-36 mt-14 ml-28 rounded-sm border-r-2 border-black' 
+        onClick={startAutoPlay} disabled={isPlaying}>
+        {isPlaying ? 'Playing...' : 'Play Happy Birthday '}
+      </button>
     </section>
     
 

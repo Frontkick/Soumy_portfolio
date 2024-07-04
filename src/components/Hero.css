@@ -1,0 +1,7 @@
+/* CSS for mobile phones (up to 768px) */
+@media (max-width: 768px) {
+    .piano_mobile {
+        position: absolute;
+        margin-top: -10px;
+    }
+}
